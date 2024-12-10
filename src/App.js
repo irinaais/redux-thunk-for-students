@@ -15,8 +15,8 @@ function App() {
       >
         Получить пользователей
       </button>
-      {users.map((el,i) =>{
-        return(<h1 key={i}>{el.name}</h1>)
+      {users.map((el,id) =>{
+        return(<h1 key={id}>{el.name}</h1>)
       })}
     </div>
   );
