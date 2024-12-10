@@ -5,7 +5,7 @@ export const customerReducer = (state = [{name:'Антон'}] , action) =>{
         case ADD_MANY_CUSTOMERS:
             return [...state, ...action.payload]
         default:
-            return state
+            return state;
     }
 }
 
